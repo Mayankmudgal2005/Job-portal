@@ -32,9 +32,7 @@ This project is built using HTML and CSS and demonstrates user interface design,
 ## 🌐 Live Demo
 
 👉 Add your live link here after deployment:
-
-https://mayankmudgal2005.github.io/Job-portal/provider.html
-
+https://mayankmudgal2005.github.io/Job-portal/index.html
 ---
 
 ## 🎯 Project Purpose
