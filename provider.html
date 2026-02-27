@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Provider - Job Portal</title>
+    <link rel="stylesheet" href="provider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>JobPortal</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#" class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-briefcase"></i>
+                My Jobs
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-users"></i>
+                Candidates
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-file-alt"></i>
+                Applications
+            </a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="index.html" class="btn-login">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Find the <span class="highlight">Perfect Talent</span> for Your Team</h1>
+            <p class="hero-subtitle">Post jobs, manage applications, and hire the best candidates</p>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="action-btn primary">
+                    <i class="fa-solid fa-plus-circle"></i>
+                    Post a New Job
+                </button>
+                <button class="action-btn secondary">
+                    <i class="fa-solid fa-search"></i>
+                    Browse Candidates
+                </button>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Active Jobs</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-file-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">156</span>
+                        <span class="stat-label">Applications</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Hired</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">2.5k</span>
+                        <span class="stat-label">Job Views</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Jobs Section -->
+        <section class="jobs-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-briefcase"></i> My Posted Jobs</h2>
+                <div class="job-filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Active</button>
+                    <button class="filter-btn">Draft</button>
+                </div>
+            </div>
+
+            <!-- Job Cards -->
+            <div class="job-cards-grid">
+
+                <!-- Job Card 1 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="job-title-info">
+                            <h3>Senior Software Engineer</h3>
+                            <span class="company-name">TechCorp Inc.</span>
+                        </div>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <div class="job-card-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Noida, IN</span>
+                        <span><i class="fa-solid fa-users"></i> 45 Applications</span>
+                        <span><i class="fa-solid fa-calendar"></i> Oct 15, 2023</span>
+                    </div>
+                    <div class="job-card-actions">
+                        <button class="btn-view"><i class="fa-solid fa-eye"></i> View</button>
+                        <button class="btn-edit"><i class="fa-solid fa-edit"></i> Edit</button>
+                        <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 2 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="job-title-info">
+                            <h3>Marketing Manager</h3>
+                            <span class="company-name">TechCorp Inc.</span>
+                        </div>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <div class="job-card-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Bengluru, IN</span>
+                        <span><i class="fa-solid fa-users"></i> 32 Applications</span>
+                        <span><i class="fa-solid fa-calendar"></i> Oct 12, 2023</span>
+                    </div>
+                    <div class="job-card-actions">
+                        <button class="btn-view"><i class="fa-solid fa-eye"></i> View</button>
+                        <button class="btn-edit"><i class="fa-solid fa-edit"></i> Edit</button>
+                        <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 3 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="job-title-info">
+                            <h3>UI/UX Designer</h3>
+                            <span class="company-name">TechCorp Inc.</span>
+                        </div>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <div class="job-card-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Remote</span>
+                        <span><i class="fa-solid fa-users"></i> 28 Applications</span>
+                        <span><i class="fa-solid fa-calendar"></i> Oct 10, 2023</span>
+                    </div>
+                    <div class="job-card-actions">
+                        <button class="btn-view"><i class="fa-solid fa-eye"></i> View</button>
+                        <button class="btn-edit"><i class="fa-solid fa-edit"></i> Edit</button>
+                        <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 4 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="job-title-info">
+                            <h3>Data Analyst</h3>
+                            <span class="company-name">TechCorp Inc.</span>
+                        </div>
+                        <span class="status-badge draft">Draft</span>
+                    </div>
+                    <div class="job-card-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Chennai, IN</span>
+                        <span><i class="fa-solid fa-users"></i> 0 Applications</span>
+                        <span><i class="fa-solid fa-calendar"></i> Not Published</span>
+                    </div>
+                    <div class="job-card-actions">
+                        <button class="btn-view"><i class="fa-solid fa-eye"></i> View</button>
+                        <button class="btn-edit"><i class="fa-solid fa-edit"></i> Edit</button>
+                        <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Load More -->
+            <div class="load-more-container">
+                <button class="load-more-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Post New Job
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; All rights reserved by us.</p>
+    </footer>
+
+</body>
+</html>

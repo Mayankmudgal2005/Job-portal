@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeker - Job Portal</title>
+    <link rel="stylesheet" href="jobseeker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>JobPortal</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#" class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-briefcase"></i>
+                Jobs
+                <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-bookmark"></i>
+                Saved Jobs
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-user"></i>
+                Profile
+            </a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="index.html" class="btn-login">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Search, Apply & <span class="highlight">Get Your Dream Job</span></h1>
+            <p class="hero-subtitle">Find the best job opportunities that match your skills and passion</p>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search by job title, keywords, or company">
+                </div>
+                <div class="location-box">
+                    <i class="fa-solid fa-location-dot location-icon"></i>
+                    <input type="text" class="location-input" placeholder="City, state, or remote">
+                </div>
+                <button class="search-btn">
+                    <i class="fa-solid fa-search"></i>
+                    Search Jobs
+                </button>
+            </div>
+
+            <!-- Popular Searches -->
+            <div class="popular-searches">
+                <span class="popular-label">Popular:</span>
+                <span class="search-tag">Froentend Developer</span>
+                <span class="search-tag">Backend Developer</span>
+                <span class="search-tag">Full Stack Developer</span>
+                <span class="search-tag">Data Analyst</span>
+                <span class="search-tag">Graphic Designer</span>
+                <span class="search-tag">Marketing Manager</span>
+                <span class="search-tag">Freelance</span>
+            </div>
+        </section>
+
+        <!-- Browse Jobs Section -->
+        <section class="browse-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-compass"></i> Browse Jobs</h2>
+                <div class="job-type-filters">
+                    <button class="filter-btn active">All Jobs</button>
+                    <button class="filter-btn">Full Time</button>
+                    <button class="filter-btn">Part Time</button>
+                    <button class="filter-btn">Remote</button>
+                    <button class="filter-btn">Internship</button>
+                </div>
+            </div>
+
+            <!-- Job Cards Grid -->
+            <div class="job-grid">
+
+                <!-- Job Card 1 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3>Senior Software Engineer</h3>
+                            <span class="company-name">Google</span>
+                        </div>
+                        <span class="job-type full-time">Full Time</span>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Noida, IN</span>
+                        <span><i class="fa-solid fa-money-bill"></i> 10L - 17L/yr</span>
+                        <span><i class="fa-solid fa-clock"></i> Full Time</span>
+                    </div>
+                    <p class="job-description">We are looking for an experienced software engineer to join our team and work on cutting-edge technologies.</p>
+                    <div class="job-footer">
+                        <span class="posted-date">Posted 2 days ago</span>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 2 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fa-brands fa-amazon"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3>Marketing Manager</h3>
+                            <span class="company-name">Amazon</span>
+                        </div>
+                        <span class="job-type full-time">Full Time</span>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Bangluru, IN</span>
+                        <span><i class="fa-solid fa-money-bill"></i>15L - 26L/yr</span>
+                        <span><i class="fa-solid fa-clock"></i> Full Time</span>
+                    </div>
+                    <p class="job-description">Lead our marketing campaigns and drive growth through innovative strategies and creative solutions.</p>
+                    <div class="job-footer">
+                        <span class="posted-date">Posted 3 days ago</span>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 3 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fa-brands fa-spotify"></i>
+                        </div>
+                        <div class="company-info"> 
+                            <h3>UI/UX Designer</h3>
+                            <span class="company-name">Spotify</span>
+                        </div>
+                        <span class="job-type remote">Remote</span>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Remote</span>
+                        <span><i class="fa-solid fa-money-bill"></i> 6L - 10L/yr</span>
+                        <span><i class="fa-solid fa-clock"></i> Full Time</span>
+                    </div>
+                    <p class="job-description">Create beautiful and intuitive user interfaces for our music streaming platform used by millions.</p>
+                    <div class="job-footer">
+                        <span class="posted-date">Posted 5 days ago</span>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 4 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fa-brands fa-microsoft"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3>Data Analyst</h3>
+                            <span class="company-name">Microsoft</span>
+                        </div>
+                        <span class="job-type full-time">Full Time</span>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Bangluru, IN</span>
+                        <span><i class="fa-solid fa-money-bill"></i> 18L - 26L/yr</span>
+                        <span><i class="fa-solid fa-clock"></i> Full Time</span>
+                    </div>
+                    <p class="job-description">Analyze complex data sets and provide actionable insights to drive business decisions.</p>
+                    <div class="job-footer">
+                        <span class="posted-date">Posted 1 week ago</span>
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- Job Card 5 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fa-brands fa-airbnb"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3>Product Manager</h3>
+                            <span class="company-name">Airbnb</span>
+                        </div>
+                        <span class="job-type part-time">Part Time</span>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Chennai, IN</span>
+                        <span><i class="fa-solid fa-money-bill"></i> 12L - 25L/yr</span>
+                        <span><i class="fa-solid fa-clock"></i> Part Time</span>
+                    </div>
+                    <p class="job-description">Manage product roadmap and work closely with engineering and design teams.</p>
+                    <div class="job-footer">
+                        <span class="posted-date">Posted 1 day ago</span>
+                        <button class="apply-btn">Apply Now</button>
+                    </div> 
